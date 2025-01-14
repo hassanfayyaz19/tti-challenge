@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Get PHP files
+php_files=$(git diff --cached --name-only --diff-filter=ACM -- '*.php' ':!*.blade.php')
+
+# Run Laravel Pint on PHP files if any exist
+if [ -n "$php_files" ]; then
+    vendor/bin/pint $php_files -q
+    git add $php_files
+fi
