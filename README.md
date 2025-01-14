@@ -178,6 +178,10 @@ The API will be available at `http://localhost:8000`
 - `status` - Enum ('to_do', 'in_progress', 'done')
 - `timestamps`
 
-## License
+## **Decisions I Made**
 
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. Integrated the **Laravel Pint** package to ensure consistent code formatting. Additionally, set up Git pre-commit hooks to automatically format code during commits.
+2. Adhered to **PSR-12 Standards** for coding style and structure to maintain readability and consistency.
+3. Utilized **API Resource Controllers** to automatically generate and organize API routes efficiently.
+4. Implemented **API Resources and Collections** to standardize and customize API responses as needed, allowing flexibility for future modifications.
+5. Created dedicated **Request Classes** for API validation to keep the codebase clean and organized. These classes also support custom error messages for validation failures.
