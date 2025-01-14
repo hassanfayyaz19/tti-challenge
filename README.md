@@ -178,13 +178,6 @@ The API will be available at `http://localhost:8000`
 - `status` - Enum ('to_do', 'in_progress', 'done')
 - `timestamps`
 
-## Testing
-
-To run the test suite:
-```bash
-php artisan test
-```
-
 ## License
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
