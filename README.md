@@ -1,4 +1,4 @@
-# Project Management API
+# tti-challenge
 
 A RESTful API built with Laravel for managing projects and tasks. This API provides endpoints for creating, reading, updating, and deleting projects and their associated tasks.
 
@@ -13,8 +13,8 @@ A RESTful API built with Laravel for managing projects and tasks. This API provi
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/project-management-api.git
-cd project-management-api
+git clone https://github.com/hassanfayyaz19/tti-challenge
+cd tti-challenge
 ```
 
 2. Install dependencies
@@ -51,7 +51,20 @@ Start the development server:
 php artisan serve
 ```
 
-The API will be available at `http://localhost:8000`
+### Testing with Postman
+
+A Postman collection file (**tti-challenge.postman_collection.json**) is included in the repository to help you test all API endpoints. To use it:
+
+Open Postman
+Click on "Import" button
+Select or drag the **tti-challenge.postman_collection.json** file
+The collection will be imported with all pre-configured API endpoints
+Make sure your local server is running (php artisan serve)
+Start testing the APIs
+
+The collection includes requests for all available endpoints with proper request methods and example payloads.
+
+The API will be available at `http://localhost:8000/api`
 
 ## API Documentation
 
